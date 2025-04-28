@@ -1,78 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="stylesheet" href="css/luzvimin.css">
-  <title>Visit Luzon</title>
-
-  <style>
-    .hero{
-        background: url('images/luzon.jpg')
-    }
-  </style>
-
+    <meta charset="UTF-8">
+    <title>LUZON Tour</title>
+    <link rel="stylesheet" href="css/luzvimin.css">
 </head>
+
+
 <body>
+    <section class="hero" style="background: url('images/visayas/vis.jpg') no-repeat center center/cover;">
+        <h1>VISAYAS</h1>
+        <p>Tour-hike that you'll want to return to again</p>
+        <div class="stats">
+            <div>108 km</div>
+            <div>8 days adventure</div>
+        </div>
+        <button class="join-button">Discover</button>
+    </section>
+    
 
-  <header class="hero">
-    <div class="hero-text">
-      <div style="padding: 20px; position: relative; top: -80px;">
-        <button onclick="window.location.href='home.html'" style=" background: none; color: #47663B;font-size: 32px; font-weight: bold; border: none;
-        cursor: pointer; margin-right: 60%;"> ⬅ 
-</button>
+    <section class="discover">
+        <h2>Discover Visayas</h2>
 
-      
-      </div>
-      
-      <h2>VISIT</h2>
-      <h1>VISAYAS</h1>
-      <p>Luzon offers a breathtaking blend of heritage, nature, and culture. From mountain highlands to vibrant cities, it’s a journey worth taking.</p>
-    </div>
-    <button class=" about">About VISAYAS</button>
-  </header>
+        <div class="card-grid">
+            <div class="place-card">
+                <img src="images/visayas/magellan.jpg" alt="Shadowpeak Canyon">
+                <h3>Magellan's Cross in Cebu, Philippine</h3>
+                <a href="luzon/baguio.html">
+                    <button>View Details</button>
+                  </a>
+            </div>
+            <div class="place-card">
+                <img src="images/visayas/bantaya.jpg" alt="Mayon Volcano">
+                <h3>Bantayan Island, Philippine</h3>
+                <button>View Details</button>
+            </div>
+            <div class="place-card">
+                <img src="images/visayas/kawasan.jpeg" alt="Tagaytay">
+                <h3>Kawasan Falls in Cebu, Philippine</h3>
+                <button>View Details</button>
+            </div>
+            <div class="place-card">
+                <img src="images/visayas/choco.jpg" alt="Intra">
+                <h3>Chocolate Hills in Bohol, Philippines</h3>
+                <button>View Details</button>
+            </div>
+            <div class="place-card">
+                <img src="images/visayas/1730.jpg" alt="Golden Dunes">
+                <h3>1730 Jesuit House in Cebu, Philippines</h3>
+                <button>View Details</button>
+            </div>
+            <div class="place-card">
+                <img src="images/visayas/boarcay.jpg" alt="Mystic Forest">
+                <h3>Boracay in Aklan, Philippines</h3>
+                <button>View Details</button>
+            </div>
+            <div class="place-card">
+                <img src="images/visayas/Kalanggaman.jpg" alt="Silver Shores">
+                <h3>Kalanggaman Island, Philippines</h3>
+                <button>View Details</button>
+            </div>
+            <div class="place-card">
+                <img src="images/visayas/siquijjor.jpg" alt="Firefall Basin">
+                <h3>Siquijor, Philippines</h3>
+                <button>View Details</button>
+            </div>
+            <div class="place-card">
+                <img src="images/visayas/ruins.jpg" alt="Moonlit Peaks">
+                <h3>The Ruins in Negros Occidental, Philippines</h3>
+                <button>View Details</button>
+            </div>
+            <div class="place-card">
+                <img src="images/visayas/hinagdanan.jpg" alt="Thunder Plains">
+                <h3>Hinagdanan Cave in Bohol Philippines</h3>
+                <button>View Details</button>
+            </div>
+        </div>
+    </section>
 
-  <section class="recommended">
-    <h3>Recommended Place's to Visit</h3>
-    <div class="cards">
-      <div class="card">
-        <p class="rank">1st</p>
-        <img src="https://via.placeholder.com/200x150" alt="Manila">
-        <h4>Manila, Luzon</h4>
+    <!-- FLOATING BUTTON SECTION -->
+    <div class="floating-container">
+      <button class="main-button">Regions</button>
+      <div class="sub-buttons">
+          <a href="luzon.html"><button>Luzon</button></a>
+          <a href="visayas.html"><button>Visayas</button></a>
+          <a href="mindanao.html"><button>Mindanao</button></a>
       </div>
-      <div class="card">
-        <p class="rank">2nd</p>
-        <img src="https://via.placeholder.com/200x150" alt="Pagudpud Beach">
-        <h4>Pagudpud Beach, Luzon</h4>
-      </div>
-      <div class="card">
-        <p class="rank">3rd</p>
-        <img src="https://via.placeholder.com/200x150" alt="Baguio City">
-        <h4>Baguio City, Luzon</h4>
-      </div>
-      <div class="card">
-        <p class="rank">4th</p>
-        <img src="https://via.placeholder.com/200x150" alt="Vigan City">
-        <h4>Vigan City, Luzon</h4>
-      </div>
-    </div>
-  </section>
+  </div>
 
-  <section class="why-section">
-    <div class="why-text">
-      <h3>Why Must Luzon?</h3>
-      <p>
-        Luzon is rich in culture, stunning landscapes, vibrant festivals, and historic sites. From the rice terraces of Banaue to the beaches of Batangas, Luzon delivers unforgettable travel experiences.
-      </p>
-      <button class="btn">Find Out</button>
-    </div>
-    <div class="gallery">
-      <img src="https://via.placeholder.com/100x100" alt="">
-      <img src="https://via.placeholder.com/100x100" alt="">
-      <img src="https://via.placeholder.com/100x100" alt="">
-      <button class="btn">Show More</button>
-    </div>
-  </section>
+  <script>
+      const mainButton = document.querySelector('.main-button');
+      const subButtons = document.querySelector('.sub-buttons');
+
+      mainButton.addEventListener('click', () => {
+          subButtons.classList.toggle('show');
+      });
+  </script>
 
 </body>
 </html>
