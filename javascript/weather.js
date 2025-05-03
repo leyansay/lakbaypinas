@@ -5,12 +5,12 @@ let currentPage = window.location.pathname.split('/').pop();  // Get the page na
 
 let city = '';  // Default city
 
-if (currentPage === 'baguio.html') {
-  city = 'Baguio';
+if (currentPage === 'burnham.html') {
+  city = 'Burnham Park';
 } else if (currentPage === 'mayon.html') {
   city = 'Mayon Volcano';
-} else if (currentPage === 'tagaytay.html') {
-  city = 'Tagaytay';
+} else if (currentPage === 'taal.html') {
+  city = 'Taal Lake';
 } else if (currentPage === 'intramuros.html') {
   city = 'Intramuros';
 } else if (currentPage === 'sumaguing.html') {
@@ -25,13 +25,15 @@ if (currentPage === 'baguio.html') {
   city = 'Vigan City';
 } else if (currentPage === 'launion.html') {
   city = 'La Union';
+} else if (currentPage === 'magellan.html') {
+  city = 'Plaza Sugbo';
 } else if (currentPage === 'bantayan.html') {
   city = 'Bantayan Island';
 } else if (currentPage === 'kawasan.html') {
   city = 'Kawasan Falls';
-} else if (currentPage === 'chocolatehills.html') {
+} else if (currentPage === 'chocolate.html') {
   city = 'Chocolate Hills';
-} else if (currentPage === '1730jesuithouse.html') {
+} else if (currentPage === '1730.html') {
   city = '1730 Jesuit House';
 } else if (currentPage === 'boracay.html') {
   city = 'Boracay';
